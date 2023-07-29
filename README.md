@@ -21,7 +21,7 @@ Version: 1.0
 Available in the Chrome Extension store:
 chrome://extensions/
 
-Search "NinjaSwipe
+Search "NinjaSwipe"
 ## Acknowledgements
 
  - [ICON USED: Forward by Roberto Chiaveri, Noun Project](https://thenounproject.com/browse/icons/term/forward/)

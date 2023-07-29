@@ -17,13 +17,13 @@ input {
 button {
   /* margin-top: 10px; */
   margin-top: 0.5rem;
-  background-color: #ccdbee;
+  background-color: #fbda61;
   font-size: 0.9rem;
   padding: 0.9rem 1.8rem;
   border-radius: 10px;
   border-width: 0.3rem;
   border: none;
-  box-shadow: 5px 5px 3px #233c67;
+  box-shadow: 5px 5px 3px #2bd2ff;
   font-weight: 700;
 }
 
@@ -39,7 +39,8 @@ li {
 
 li a {
   color: #233c67;
-  /* text-decoration: none; */
+  font-size: 1.1rem;
+  text-decoration: none;
 }
 
 img {

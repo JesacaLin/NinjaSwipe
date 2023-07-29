@@ -6,15 +6,22 @@ const ulEl = document.querySelector("#ul-el");
 
 inputBTN.addEventListener("click", () => {
   myLeads.push(inputEl.value);
-  renderLeads();
   inputEl.value = "";
+  renderLeads();
 });
 
 function renderLeads() {
   ulEl.innerHTML = "";
   for (let i = 0; i < myLeads.length; i++) {
     const listItem = document.createElement("li");
-    listItem.textContent += myLeads[i];
+    const anchorTag = document.createElement("a");
+    anchorTag.textContent += myLeads[i];
+    anchorTag.href = myLeads[i];
+    anchorTag.setAttribute("target", "_blank");
+
+    listItem.appendChild(anchorTag);
     ulEl.appendChild(listItem);
+
+    console.log(listItem);
   }
 }

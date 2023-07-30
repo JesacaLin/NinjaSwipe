@@ -11,7 +11,7 @@ Version: 1.0
 
 - Enjoy the convenience of direct contact saving or add links manually. 
 - Your data will be securely persisted via Local Storage, ensuring easy access to your network whenever you need it.
-## Screenshots
+## Screenshot (work in progress)
 
 ![App Screenshot](https://github.com/JesacaLin/NinjaSwipe/blob/main/UI.jpg?raw=true)
 
@@ -21,7 +21,7 @@ Version: 1.0
 Available in the Chrome Extension store:
 chrome://extensions/
 
-Search "NinjaSwipe
+Search "NinjaSwipe"
 ## Acknowledgements
 
  - [ICON USED: Forward by Roberto Chiaveri, Noun Project](https://thenounproject.com/browse/icons/term/forward/)

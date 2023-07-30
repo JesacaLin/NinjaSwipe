@@ -13,7 +13,7 @@ Version: 1.0
 - Your data will be securely persisted via Local Storage, ensuring easy access to your network whenever you need it.
 ## Screenshot (work in progress)
 
-![App Screenshot](https://github.com/JesacaLin/NinjaSwipe/blob/main/UI.jpg?raw=true)
+![App Screenshot](https://github.com/JesacaLin/NinjaSwipe/blob/main/UI-2.jpg?raw=true)
 
 
 ## Deployment

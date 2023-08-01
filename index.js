@@ -29,7 +29,7 @@ function render(leads) {
 
     //ADD DELETE BUTTON
     const deleteButton = document.createElement("button");
-    deleteButton.textContent = "x";
+    deleteButton.textContent = "X";
     deleteButton.classList.add("delete-button"); // Add the "delete-button" class
 
     deleteButton.addEventListener("click", () => {

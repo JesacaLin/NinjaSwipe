@@ -14,10 +14,11 @@ if (leadsFromLocalStorage) {
 }
 
 tabBTN.addEventListener("click", () => {
-  myLeads.push(tabs[0].url);
-  localStorage.setItem("myLeads", JSON.stringify(myLeads));
-  render(myLeads);
-  //console.log(tabs[0].url);
+  chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
+    myLeads.push(tabs[0].url);
+    localStorage.setItem("myLeads", JSON.stringify(myLeads));
+    render(myLeads);
+  });
 });
 
 function render(leads) {

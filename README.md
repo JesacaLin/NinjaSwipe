@@ -11,6 +11,7 @@ Version: 1.0
 
 - Save Contact: Add links manually.
 - Save Tab: Automatically add current window url using Chrome API.
+- Delete: Clear current url from list.
 - Delete All: Clear all links.
 - Data will be securely persisted via Local Storage.
 ## Screenshot (work in progress)

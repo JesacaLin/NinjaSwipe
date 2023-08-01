@@ -14,10 +14,6 @@ Version: 1.0
 - Delete: Clear current url from list.
 - Delete All: Clear all links.
 - Data will be securely persisted via Local Storage.
-## Screenshot (work in progress)
-
-![App Screenshot](https://github.com/JesacaLin/NinjaSwipe/blob/main/UI-2.jpg?raw=true)
-
 
 ## Deployment
 
@@ -25,6 +21,15 @@ Available in the Chrome Extension store:
 chrome://extensions/
 
 Search "NinjaSwipe"
+
+
+## Screenshot & Demo
+![App Screenshot](https://github.com/JesacaLin/NinjaSwipe/blob/main/UI.jpg?raw=true)
+
+
+![App Screenshot](https://github.com/JesacaLin/NinjaSwipe/blob/main/UI.gif?raw=true)
+
+
 ## Acknowledgements
 
  - [ICON USED: Forward by Roberto Chiaveri, Noun Project](https://thenounproject.com/browse/icons/term/forward/)

@@ -9,8 +9,10 @@ NinjaSwipe is a Chrome extension that helps you build and expand your profession
 Version: 1.0
 ## Features
 
-- Enjoy the convenience of direct contact saving or add links manually. 
-- Your data will be securely persisted via Local Storage, ensuring easy access to your network whenever you need it.
+- Save Contact: Add links manually.
+- Save Tab: Automatically add current window url using Chrome API.
+- Delete All: Clear all links.
+- Data will be securely persisted via Local Storage.
 ## Screenshot (work in progress)
 
 ![App Screenshot](https://github.com/JesacaLin/NinjaSwipe/blob/main/UI-2.jpg?raw=true)

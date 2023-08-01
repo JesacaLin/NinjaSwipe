@@ -6,7 +6,7 @@
 
 NinjaSwipe is a Chrome extension that helps you build and expand your professional relationships. Set and achieve weekly networking goals, whether it's coffee chats, LinkedIn connections, or anything else you want to make, all in one user-friendly platform.
 
-Version: 1.0
+Version: 1.1
 ## Features
 
 - Save Contact: Add links manually.

@@ -26,12 +26,29 @@ function render(leads) {
   for (let i = 0; i < leads.length; i++) {
     const listItem = document.createElement("li");
     const anchorTag = document.createElement("a");
+
+    //ADD DELETE BUTTON
+    const deleteButton = document.createElement("button");
+    deleteButton.textContent = "x";
+    deleteButton.classList.add("delete-button"); // Add the "delete-button" class
+
+    deleteButton.addEventListener("click", () => {
+      deleteLead(i);
+    });
+    listItem.appendChild(deleteButton);
+
     anchorTag.textContent += leads[i];
     anchorTag.href = leads[i];
     anchorTag.setAttribute("target", "_blank");
     listItem.appendChild(anchorTag);
     ulEl.appendChild(listItem);
   }
+}
+
+function deleteLead(index) {
+  myLeads.splice(index, 1);
+  localStorage.setItem("myLeads", JSON.stringify(myLeads));
+  render(myLeads);
 }
 
 inputBTN.addEventListener("click", () => {

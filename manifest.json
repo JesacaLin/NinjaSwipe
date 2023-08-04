@@ -2,6 +2,10 @@
   "manifest_version": 3,
   "version": "1.1",
   "name": "NinjaSwipe",
+  "description": "Intuitive and versatile, easily store important links for quick access!",
+  "icons": {
+    "128": "128.png"
+  },
   "action": {
     "default_popup": "index.html",
     "default_icon": "icon-no-text.png"

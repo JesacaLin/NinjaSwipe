@@ -4,7 +4,7 @@
 
 # NinjaSwipe
 
-NinjaSwipe is a Chrome extension that helps you build and expand your professional relationships. Set and achieve weekly networking goals, whether it's coffee chats, LinkedIn connections, or anything else you want to make, all in one user-friendly platform.
+Never forget an important link again with this to-do list for links! Intuitive and versatile, save and revisit links without wading into a cluttered Bookmarks folder.
 
 Version: 1.1
 ## Features
@@ -18,9 +18,7 @@ Version: 1.1
 ## Deployment
 
 Available in the Chrome Extension store:
-chrome://extensions/
-
-Search "NinjaSwipe"
+ - [NinjaSwipe](https://chrome.google.com/webstore/detail/ninjaswipe/fmmgmcphmgmenjopgnioccpafpokgnjh/related)
 
 
 ## Screenshot & Demo
